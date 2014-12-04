@@ -1,0 +1,16 @@
+{
+    "require": {        		
+        "aws/aws-sdk-php": "2.7.*@dev",
+        "twig/twig": "~1.0"
+    }
+    ,"autoload": {
+        "files": [
+            "classes/flight/autoload.php"
+            ,"classes/flight/Flight.php" 
+            ,"classes/medoo/medoo.php" 
+            ,"classes/Autenticazione.php"            
+            ,"classes/utils.inc.php"
+        ]    
+    }
+
+}

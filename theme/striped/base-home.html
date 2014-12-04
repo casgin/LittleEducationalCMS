@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+
+
+{% block mainMenu %}
+	{% include "block-main-menu.html" %}
+{% endblock %}
+
+{% block mainArticle %}
+	{% for singleArticle in articleList  %}
+
+		{% include "block-main-article.html" %}
+
+	{% endfor  %}
+{% endblock %}

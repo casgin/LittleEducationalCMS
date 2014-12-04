@@ -1,0 +1,13 @@
+<nav id="nav">
+	<ul>
+
+	{% for item in mainMenuItems %}
+        
+		<li class="{{item.class}}">
+			<a href="{{item.url}}" target="{{item.target}}">{{item.label}}</a>
+		</li>
+
+    {% endfor %}		
+
+	</ul>
+</nav>
